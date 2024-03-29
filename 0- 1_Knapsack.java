@@ -5,6 +5,7 @@ import java.io.*;
 public class Solution {
     public static int helper(int idx, int W, int[] weight, int[] value, int[][] dp) {
         int n = weight.length;
+        
         if (W == 0)
             return 0;
         if (idx == 0) {
